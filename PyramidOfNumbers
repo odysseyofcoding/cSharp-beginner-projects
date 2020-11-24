@@ -17,7 +17,7 @@ namespace Github_NetCore
             Console.WriteLine("Enter the height of your wished Pyramid:");
             num = int.Parse(Console.ReadLine());
             //For loop to draw a pyramid with the entered max value.
-            for (int i = 0; i <= num; i++)
+            for (int i = 0; i <= num; i++) 
             {
                 //To draw the spaces to get the right shape of a pyramid
                 for (int space = 0; space < (num - i); space++)
